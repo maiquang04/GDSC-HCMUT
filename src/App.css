@@ -1,0 +1,37 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.app {
+  min-height: 100vh;
+  /*background-color: #39445a;*/
+  background: linear-gradient(to right top, #222831, #3F72AF);
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding-top: 70px;
+  }
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  /*font-family: "Montserrat", sans-serif;*/
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+  /*color: #d54d7b;*/
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}

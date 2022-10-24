@@ -1,0 +1,7 @@
+.people_result {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 50px;
+}

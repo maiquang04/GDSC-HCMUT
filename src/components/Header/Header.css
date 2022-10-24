@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    font-size: 6.4vw;
+  }
+}
+
+.app_title {
+  cursor: pointer;
+}
